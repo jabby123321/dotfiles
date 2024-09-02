@@ -1,0 +1,2 @@
+[alias]
+nag = "clippy -- -W clippy::pedantic -W clippy::nursery -W clippy::unwrap_used -W clippy::expect_used -A clippy::single_match_else -A clippy::manual_let_else"
