@@ -48,3 +48,9 @@ function ex {
     done
 fi
 }
+
+
+function load-github-key {
+  eval $(ssh-agent -s)
+  ssh-add ~/.ssh/github_key
+}
