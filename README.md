@@ -19,9 +19,9 @@
 
 ### sync from remote repo
 1. pull the remote repo
-```
+	```
 	$ git pull origin master
-```
+	```
 2. nothing!!! git stow uses symbolic links the changes should already be in effect
 
 ### Sync to the remote repo
