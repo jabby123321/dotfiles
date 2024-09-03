@@ -1,3 +1,4 @@
+[[ $- != *i* ]] && return
 
 # The following lines were added by compinstall
 
@@ -20,3 +21,5 @@ source ~/.zsh/zsh-aliases
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 eval "$(starship init zsh)"
+
+export EXA_ICON_SPACING=2

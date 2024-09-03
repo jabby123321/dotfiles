@@ -33,7 +33,7 @@
 ## Prerequisites
 the following prerequisites are highly recomended
 - A nerdfont set as terminal default font or use jetbrains mono nerdfort and use alacritty
-- If using ZSH then ensure that starship and Exa are installed
+- If using ZSH then ensure that starship, bat and Exa are installed
 
 ## Dotfiles Included
 *dotfiles are included to configure the following services, programmes and tools*
