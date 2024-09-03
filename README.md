@@ -9,17 +9,22 @@
 ### first run
 1. install git stow and git
 2. git clone the repo into local folder in home directory
+
 	$ git clone https://github.com/jabby123321/dotfiles.git
 3. run
+
 	$ stow --ignore * .
 
 ### sync from remote repo
 1. pull the remote repo
+
 	$ git pull origin master
 2. nothing!!! git stow uses symbolic links the changes should already be in effect
 
 ### Sync to the remote repo
-1. git push -u -f origin Master
+1. git push to the remote repo
+
+	$ git push -u -f origin Master
 
 ## Prerequisites
 the following prerequisites are highly recomended
