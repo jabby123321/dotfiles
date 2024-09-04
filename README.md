@@ -8,11 +8,12 @@
 
 ### first run
 1. install git stow and git
-2. git clone the repo into local folder in home directory
+2. set up git credentials
+3. git clone the repo into local folder in home directory
 	```
-	$ git clone https://github.com/jabby123321/dotfiles.git
+	$ git clone git@github.com:jabby123321/dotfiles.git
 	```
-3. run
+4. run
 	```
 	$ stow --ignore * .
 	```
