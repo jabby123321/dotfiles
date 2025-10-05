@@ -1,5 +1,4 @@
 ## PROGRAM SUSBSTITUTIONS
-alias code="codium"
 alias cat="bat"
 alias ls="eza --icons"
 
@@ -8,7 +7,6 @@ alias l="ls"
 alias la="ls -a"
 alias ll="ls -l"
 alias lla="ls -al"
-
 
 ## ARCHIVE EXTRACTION
 # usage: ex <file>
@@ -54,3 +52,22 @@ function load-github-key {
   eval $(ssh-agent -s)
   ssh-add ~/.ssh/github_key
 }
+
+function aurfetch {
+  if [ -z "$1" ]; then
+    echo "please provide a repo name"
+  fi
+  pullURL="https://aur.archlinux.org/$1.git"
+
+  if [ -z "$2" ]; then
+    fileLocation="/tmp/"
+  else
+    fileLocation="$2"
+  fi
+
+  cd "$fileLocation"
+  git clone "$pullURL"
+  cd "$fileLocation/$1"
+}
+
+
